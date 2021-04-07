@@ -1,0 +1,14 @@
+# prod environment
+
+server:
+  port: 8080
+
+app:
+  message: This is the property file to the ${spring.application.name} specific to PROD environment
+
+spring:
+  datasource:
+    driver-class-name: org.mysql.cj.jdbc.Driver
+    url: <MYSQL_URL>
+    username: <USERNAME>
+    password: <PASSWORD>
