@@ -10,5 +10,4 @@ public class HelloController {
     public String helloMessage() {
         return "Hello, Digital Innovation One!";
     }
-
 }
